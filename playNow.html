@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play Now</title>
+    <link rel="stylesheet" href="playNowStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Background Logo Frawlsalla -->
+    <div class="play-now">
+      <div class="bg">
+        <img src="big-logo.png" alt="Frawlsalla Logo" />
+      </div>
+
+      <!-- Create Account -->
+      <div class="account">
+        <h1>Create Account</h1>
+        <p>Let’s start your journey as a warrior!</p>
+
+        <!-- Form -->
+        <form id="form" onsubmit="validate(); return false;">
+          <!-- Name -->
+          <div class="input-container name">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" />
+            <small>Error Message</small>
+          </div>
+
+          <!-- Email -->
+          <div class="input-container email">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+            />
+            <small>Error Message</small>
+          </div>
+
+          <!--Gender-->
+          <div class="input-container gender">
+            <label class="gender-text">Gender</label>
+            <!-- Male -->
+            <div class="male">
+              <input type="radio" id="male" name="gender" />
+              <div class="radio"></div>
+              <label for="male"> Male </label>
+            </div>
+            <!-- Female -->
+            <div class="female">
+              <input type="radio" id="female" name="gender" />
+              <div class="radio"></div>
+              <label for="female"> Female </label>
+            </div>
+            <small>Error Message</small>
+          </div>
+
+          <!-- Password -->
+          <div class="input-container password">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+            <small>Error Message</small>
+          </div>
+
+          <!-- Terms & Condition -->
+          <div class="input-container terms">
+            <input type="checkbox" id="terms" name="terms" />
+            <label for="terms"
+              >I agree with <span>the terms</span> and
+              <span>conditions</span></label
+            >
+            <small>Error Message</small>
+          </div>
+
+          <!-- Create Account Button -->
+          <div class="button">
+            <a href="#">
+              <button type="submit">Create Account</button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="playNowScript.js"></script>
+  </body>
+</html>

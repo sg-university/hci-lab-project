@@ -1,163 +1,167 @@
-body{
-    margin:0%;
-    font-family: 'Poppins';
-    letter-spacing: 0.02em;
+body {
+  margin: 0%;
+  font-family: "Poppins";
+  letter-spacing: 0.02em;
 }
 
 @media screen and (max-width: 1440px) {
-    .header{
-        display: flex;
-        padding-top: 4%;
-        padding-left: 8%;
-        padding-right: 8%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .header {
+    display: flex;
+    padding-top: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .header .logo{
-        display: flex;
-        flex-direction: row;
-    }
+  .header .logo {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .header .logo img{
-        width: 20%;
-    }
+  .header .logo img {
+    width: 20%;
+  }
 
-    .logo .text{
-        display: flex;
-        font-weight: bold;
-        color: #0a2c3b;
-        align-items: center;
-        font-style: normal;
-        font-size: 1.4vw;
-        padding-left: 8%;
-    }
+  .logo .text {
+    display: flex;
+    font-weight: bold;
+    color: #0a2c3b;
+    align-items: center;
+    font-style: normal;
+    font-size: 1.4vw;
+    padding-left: 8%;
+  }
 
-    #hideNav{
-        display: flex;
-        width: 49%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .header .logo a {
+    display: flex;
+  }
 
-    .header a{
-        text-decoration: none;
-        font-size: 1.3vw;
-        font-weight: 400;
-        color: #999999;
-        letter-spacing: 0.02em;
-        line-height: 100%;
-        font-family: 'Poppins';
-    }
+  #hideNav {
+    display: flex;
+    width: 49%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    #selectedButton{
-        color: #0a2c3b;
-    }
+  .header a {
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #999999;
+    letter-spacing: 0.02em;
+    line-height: 100%;
+    font-family: "Poppins";
+  }
 
-    #play-now{
-        color: white;
-        background: #0A2C3B;
-        border-radius: 4px;
-        font-weight: 500;
-        padding: 2%;
-        padding-left: 4%;
-        padding-right: 4%;
-        box-shadow: 0px 8px 16px -5px rgba(255, 255, 255, 0.15);
-    }
+  #selectedButton {
+    color: #0a2c3b;
+  }
 
-    .checkBtn{
-        font-size: 30px;
-        color: #0a2c3b;
-        display: none;
-    }
+  #play-now {
+    color: white;
+    background: #0a2c3b;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-shadow: 0px 8px 16px -5px rgba(255, 255, 255, 0.15);
+  }
 
-    #check{
-        display: none;
-    }
+  .checkBtn {
+    font-size: 30px;
+    color: #0a2c3b;
+    display: none;
+  }
 
-    .contain{
-        padding-top: 8%;
-    }
+  #check {
+    display: none;
+  }
 
-    .contain .text{
-        text-align: center;
-    }
+  .contain {
+    padding-top: 8%;
+  }
 
-    .text .title{
-        font-size: 3.6vw;
-        line-height: 160%;
-        font-weight: bold;
-    }
+  .contain .text {
+    text-align: center;
+  }
 
-    .text .body{
-        color:#666666;
-        font-size: 1.2vw;
-        line-height: 180%;
-    }
+  .text .title {
+    font-size: 3.6vw;
+    line-height: 160%;
+    font-weight: bold;
+  }
 
-    .contain .list{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 6%;
-        margin-right: 6%;
-    }
+  .text .body {
+    color: #666666;
+    font-size: 1.2vw;
+    line-height: 180%;
+  }
 
-    .list .item{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 3%;
-    }
+  .contain .list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
 
-    .list .item .img{
-        width: 18vw; 
-        height: 30vw;
-    }
+  .list .item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3%;
+  }
 
-    .list .item .text{
-        font-weight: 600;
-        font-size: 1.8vw;
-        line-height: 180%;
-    }
+  .list .item .img {
+    width: 18vw;
+    height: 30vw;
+  }
 
-    .footer{
-        margin-top: 0.1%;
-        background-color:#0a2c3b;
-        height: 100%;
-    }
+  .list .item .text {
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 180%;
+  }
 
-    .footer .upper{
-        display: flex;
-        justify-content: center;
-    }
+  .footer {
+    margin-top: 0.1%;
+    background-color: #0a2c3b;
+    height: 100%;
+  }
 
-    .footer .upper a{
-        padding: 0.5%;
-        padding-top: 5%;
-        padding-bottom: 4%;
-    }
+  .footer .upper {
+    display: flex;
+    justify-content: center;
+  }
 
-    .footer .upper img{
-        width: 39px;
-        height: 39px;
-        text-decoration: none;
-    }
+  .footer .upper a {
+    padding: 0.5%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+  }
 
-    .footer .lower{
-        text-align: center;
-        color: white;
-        font-size: 1.2vw;
-        line-height: 300%;
-    }
+  .footer .upper img {
+    width: 39px;
+    height: 39px;
+    text-decoration: none;
+  }
+
+  .footer .lower {
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+    line-height: 300%;
+  }
 }
 
 @media screen and (max-width: 1025px) {
-    /* .contain .list .item{
+  /* .contain .list .item{
         width: 30%;
         height: 480px;
     }   
@@ -165,15 +169,15 @@ body{
         width: 100%;
         height: 100%; 
     } */
-    .footer .upper a{
-        padding: 0.5%;
-        padding-top: 6%;
-        padding-bottom: 4%;
-    }
+  .footer .upper a {
+    padding: 0.5%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    /* .header{
+  /* .header{
         width: 170%;
     }
     .header .logo{
@@ -210,32 +214,32 @@ body{
     .footer {
         width: 207%;    
     } */
-    .header{
-        flex-direction: column;
-    }
-    .header .navigation{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
-    .checkBtn{
-        display: block;
-    }
-    #hideNav{
-        flex-direction: column;
-        transition: all .5s;
-    }
-    .header a{
-        margin-top: 8%;
-        font-size: 2.2vw;
-    }
-    .contain .item .text{
-        font-size: 2vw;
-    }
+  .header {
+    flex-direction: column;
+  }
+  .header .navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .checkBtn {
+    display: block;
+  }
+  #hideNav {
+    flex-direction: column;
+    transition: all 0.5s;
+  }
+  .header a {
+    margin-top: 8%;
+    font-size: 2.2vw;
+  }
+  .contain .item .text {
+    font-size: 2vw;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    /* .header{
+  /* .header{
         width: 155%;
     }
     .header .logo{
@@ -270,20 +274,20 @@ body{
     .footer {
         width: 218%;    
     } */
-    .contain .item{
-        margin-bottom: 5%;
-    }
-    .contain .item .img{
-        width: 150px;
-        height: 250px;  
-    }
-    .contain .item .text{
-        font-size: 3.5vw;
-    }
-    .footer .upper img{
-        width: 28px;
-        height: 28px;
-    }
+  .contain .item {
+    margin-bottom: 5%;
+  }
+  .contain .item .img {
+    width: 150px;
+    height: 250px;
+  }
+  .contain .item .text {
+    font-size: 3.5vw;
+  }
+  .footer .upper img {
+    width: 28px;
+    height: 28px;
+  }
 }
 /* 
 @media screen and (max-width: 400px) {
@@ -300,78 +304,78 @@ body{
 */
 
 /* Character lists */
-.item .img{
-    background-size: 100%;
-    background-repeat: no-repeat;
+.item .img {
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-.item1 .img{
-    background-image: url("../Image/Characters/Tyrex.png");
+.item1 .img {
+  background-image: url("../Image/Characters/Tyrex.png");
 }
 
-.item2 .img{
-    background-image: url("../Image/Characters/Ninjari.png");
+.item2 .img {
+  background-image: url("../Image/Characters/Ninjari.png");
 }
 
-.item3 .img{
-    background-image: url("../Image/Characters/Mr\ Shooter.png");
+.item3 .img {
+  background-image: url("../Image/Characters/Mr\ Shooter.png");
 }
 
-.item4 .img{
-    background-image: url("../Image/Characters/Theresia.png");
+.item4 .img {
+  background-image: url("../Image/Characters/Theresia.png");
 }
 
-.item5 .img{
-    background-image: url("../Image/Characters/Galham.png");
+.item5 .img {
+  background-image: url("../Image/Characters/Galham.png");
 }
 
-.item6 .img{
-    background-image: url("../Image/Characters/Sando.png");
+.item6 .img {
+  background-image: url("../Image/Characters/Sando.png");
 }
 
-.item7 .img{
-    background-image: url("../Image/Characters/Guardian.png");
+.item7 .img {
+  background-image: url("../Image/Characters/Guardian.png");
 }
 
-.item8 .img{
-    background-image: url("../Image/Characters/Cyborg.png");
+.item8 .img {
+  background-image: url("../Image/Characters/Cyborg.png");
 }
 
-.item9 .img{
-    background-image: url("../Image/Characters/One\ Eyes.png");
+.item9 .img {
+  background-image: url("../Image/Characters/One\ Eyes.png");
 }
 
-.item10 .img{
-    background-image: url("../Image/Characters/King.png");
+.item10 .img {
+  background-image: url("../Image/Characters/King.png");
 }
 
-.item11 .img{
-    background-image: url("../Image/Characters/Dayatri.png");
+.item11 .img {
+  background-image: url("../Image/Characters/Dayatri.png");
 }
-.item12 .img{
-    background-image: url("../Image/Characters/Prince.png");
+.item12 .img {
+  background-image: url("../Image/Characters/Prince.png");
 }
-.item13 .img{
-    background-image: url("../Image/Characters/Cherax.png");
+.item13 .img {
+  background-image: url("../Image/Characters/Cherax.png");
 }
-.item14 .img{
-    background-image: url("../Image/Characters/Ossan.png");
+.item14 .img {
+  background-image: url("../Image/Characters/Ossan.png");
 }
-.item15 .img{
-    background-image: url("../Image/Characters/Golem.png");
+.item15 .img {
+  background-image: url("../Image/Characters/Golem.png");
 }
-.item16 .img{
-    background-image: url("../Image/Characters/Julex.png");
+.item16 .img {
+  background-image: url("../Image/Characters/Julex.png");
 }
-.item17 .img{
-    background-image: url("../Image/Characters/Pobox.png");
+.item17 .img {
+  background-image: url("../Image/Characters/Pobox.png");
 }
-.item18 .img{
-    background-image: url("../Image/Characters/Sharky.jpg");
+.item18 .img {
+  background-image: url("../Image/Characters/Sharky.jpg");
 }
-.item19 .img{
-    background-image: url("../Image/Characters/Galham.png");
+.item19 .img {
+  background-image: url("../Image/Characters/Galham.png");
 }
-.item20 .img{
-    background-image: url("../Image/Characters/Dedsin.png");
+.item20 .img {
+  background-image: url("../Image/Characters/Dedsin.png");
 }

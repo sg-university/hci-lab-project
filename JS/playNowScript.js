@@ -1,9 +1,9 @@
 const form = document.getElementById('form');
 const name = document.getElementById('name');
 const email = document.getElementById('email');
-const gender = document.querySelector('.gender[name="gender"]');
 const password = document.getElementById('password');
 const terms = document.getElementById('terms');
+// const gender = document.querySelector('.gender[name="gender"]');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -53,6 +53,20 @@ form.addEventListener('submit', (e) => {
 
   // VALIDATE GENDER
   // Must be selected
+  let valid = false;
+  let gender = document.form.gender;
+  for (let i = 0; i < gender.length; i++) {
+    if (gender[i].checked) {
+      valid = true;
+      break;
+    }
+  }
+  if (valid) {
+    showSuccess(gender);
+  } else {
+    alert('Gender must be selected!');
+  }
+
 
   // VALIDATE PASSWORD
   // Must be filled
